@@ -45,7 +45,7 @@ func UpdateAnimal(ctx *gin.Context) {
 		Status   string `json:"status"`
 		Race     string `json:"race"`
 		Weight   string `json:"weight"`
-
+	}
 		ctx.Bind(&input)
 
 		var animal models.Animal
